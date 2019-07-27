@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="48dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp"
+    android:background="#353E4f"
+    tools:context=".Activities.EnterPatternActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/image_view"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:text="SDLA"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@drawable/circular_background_side_nav_bar"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/draw_your_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Draw Your Pattern"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <com.andrognito.patternlockview.PatternLockView
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:id="@+id/pattern_lock_view"
+            android:layout_width="250dp"
+            android:layout_height="259dp"
+            app:correctStateColor="@color/colorAccent"
+            app:normalStateColor="@color/colorAccent"
+            app:wrongStateColor="@color/boldTextColor"
+            android:layout_centerInParent="true" />
+
+        <!--
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/wrong_pattern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wrong pattern, try again"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+            -->
+
+    </LinearLayout>
+
+</RelativeLayout>

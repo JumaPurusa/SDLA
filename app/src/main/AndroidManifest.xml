@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jay.sdla">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lock"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/lock"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.com.example.jay.sdla.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <activity android:name=".LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.MainActivity" />
+        <activity android:name=".Activities.EnterPatternActivity" />
+        <activity android:name=".Activities.SetPatternActivity"
+                  android:parentActivityName=".Activities.SettingsActivity"/>
+
+        <activity android:name=".Activities.AboutActivity"
+                  android:parentActivityName=".Activities.MainActivity" />
+        <activity android:name=".Activities.SettingsActivity"
+                  android:parentActivityName=".Activities.MainActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SDLA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_about">About</string>
+
+    <!-- Contextual Action Menu item -->
+    <string name="action_encrypt">Encrypt</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+
+    <!-- Settings Preferences -->
+    <string name="pref_security_key">1234</string>
+    <string name="pref_default_key"></string>
+    <string name="pref_label">Security key</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Video row -->
+    <string name="video_image"></string>
+    <string name="video_name">Name</string>
+    <string name="video_duration">duration</string>
+    <string name="video_size">size</string>
+
+    <!-- confirm Dialog -->
+    <string name="confirm_text">Are You Sure?</string>
+    <string name="button_delete">DELETE</string>
+    <string name="button_cancel">CANCEL</string>
+
+    <!-- alert Encrypted -->
+    <string name="button_decrypted">DECRYPT</string>
+    <string name="button_cancel2">CANCEL</string>
+    <string name="button_encrypt">ENCRYPT</string>
+
+    <!-- Please wait Dialog -->
+    <string name="please_wait">Please wait</string>
+
+    <string name="decryption_header">Enter a security key</string>
+    <string name="button_ok">OK</string>
+
+    <string name="sdla_talk">Secured Digital Locker is an advanced application in which the file storing is made it very efficient and reliable as we don’t have to carry each and every document with us every time. Legal document such as Passport, Birth Certificate etc. are very important and they can be misused. Uploading them to any server is a risk taking action as they can be hacked and also keep them in our phones is also dangerous</string>
+
+    <string name="authors_name">Juma M. Purusa</string>
+</resources>
