@@ -9,4 +9,4 @@ served security key.
 
 ![Uploading GIF-190728_024918.gif…]()
 
-<img src="https://user-images.githubusercontent.com/25587047/62313072-a75a4e80-b444-11e9-8395-5ca7147f918a.png" width="300" height="480">
+<img src="https://user-images.githubusercontent.com/25587047/62313072-a75a4e80-b444-11e9-8395-5ca7147f918a.png" width="200" height="400">
