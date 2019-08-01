@@ -8,7 +8,8 @@ Thereby it serves for security isses. Some files may be very confidential whereb
 served security key.
 
 # SDLA Demo
-<img src="https://user-images.githubusercontent.com/25587047/62314674-682dfc80-b448-11e9-9b81-fab18efbe2ed.gif" width="240" height="400">
+
+<img src="https://user-images.githubusercontent.com/25587047/62322425-eba41980-b459-11e9-8ba0-94d4b2f507ea.gif" width="240" height="400">
 
 <img src="https://user-images.githubusercontent.com/25587047/62313072-a75a4e80-b444-11e9-8395-5ca7147f918a.png" width="240" height="400">
 <img src="https://user-images.githubusercontent.com/25587047/62318992-d62af180-b451-11e9-895d-c712ad23060b.png" width="240" height="400">
