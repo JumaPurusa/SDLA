@@ -31,4 +31,4 @@ served security key.
 
 &copy; Juma M Purusa, Software Engineer
 
-Licensed under the [MIT License] (LICENSE).
+Licensed under the [MIT License](LICENSE).
