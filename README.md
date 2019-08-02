@@ -21,3 +21,14 @@ served security key.
 ### Files Decryption using a security key created by the user.
 <img src="https://user-images.githubusercontent.com/25587047/62336375-d98ba080-b484-11e9-8d3f-5dcee91ff8c0.gif" width="240" height="400">
 
+## Contributors
+
+- Juma M Purusa <jmpurusa@gmail.com>
+
+--
+
+## License & copyright
+
+&copy; Juma M Purusa, Software Engineer
+
+Licensed under the [MIT License](LICENSE).
