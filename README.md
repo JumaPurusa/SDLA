@@ -16,8 +16,7 @@ served security key.
 <img src="https://user-images.githubusercontent.com/25587047/62326518-29f20680-b463-11e9-9ea1-04ba539b1ecc.gif" width="240" height="400">
 
 ### Files encryption using a security key created by the user
-![GIF-190802_035754](https://user-images.githubusercontent.com/25587047/62345309-b4a82500-b4a6-11e9-86c7-b68b125f2d33.gif)
-
+<img src="https://user-images.githubusercontent.com/25587047/62345309-b4a82500-b4a6-11e9-86c7-b68b125f2d33.gif" width="240" height="400"/>
 
 ### Files Decryption using a security key created by the user.
 <img src="https://user-images.githubusercontent.com/25587047/62336375-d98ba080-b484-11e9-8d3f-5dcee91ff8c0.gif" width="240" height="400">
